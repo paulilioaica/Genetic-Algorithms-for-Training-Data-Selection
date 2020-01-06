@@ -1,7 +1,4 @@
 import random
-
-import numpy as np
-import matplotlib.pyplot as plt
 from dataloader import parse_dataset
 from genetic import train, selection, cross_over, mutation, generate_population, get_ds_from_population
 from utils import get_sizes, create_nn_array

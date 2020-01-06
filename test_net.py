@@ -9,7 +9,7 @@ X_train, Y_train, X_test, Y_test = parse_dataset()
 losses = 0
 losses_hist= []
 accuracy = []
-for epoch in range(50):
+for epoch in range(EPOCHS):
     model.train(X_train, Y_train)
     output = model.predict(X_test)
     loss = np.square(np.argmax(output, axis=1) - Y_test).mean()
