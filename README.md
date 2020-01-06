@@ -4,9 +4,9 @@ Given any dataset, it's well known that not every training sample delivers the s
 
 I trained a genetic algorithm to improve accuracy and / or help a neural network converge faster, by selecting only training examples that help the network generalize better.
 
-In the WINE dataset used here, there are 3 classes and 157 training examples.
+In the [WINE dataset](https://archive.ics.uci.edu/ml/datasets/wine) dataset used here, there are 3 classes and 157 training examples.
 
-The method used is inspired by this paper:
+The method used is inspired by this [paper](https://link.springer.com/content/pdf/10.1007/978-3-642-34166-3_61.pdf):
 1) Set the chromosome length to K (of 1's and 0's randomly drawn)
 1) Select K components from each class (remove the 0's from the training data)
 1) Train a population of networks N(N=50) epochs on these bootstrapped datasets (chromosomes) and test them on test data
