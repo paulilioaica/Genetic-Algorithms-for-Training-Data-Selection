@@ -19,7 +19,7 @@ The method used is inspired by this [paper](https://link.springer.com/content/pd
 
 
 ## 
-### Neural Network trained for 50 epochs on all training data
+### Neural Network trained for 50 epochs on all training data for baseline
 #### ***Accuracy***
 ![plain](pics/rfia_all_dimensions_accuracy.png)
 #### ***Loss***
